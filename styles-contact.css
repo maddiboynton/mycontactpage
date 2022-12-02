@@ -1,0 +1,151 @@
+/*This is my 201 Contact Web Page Project using Eric Meyer's reset at the top of my page -- your CSS starts on line 56 */
+
+
+
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+
+
+/* ---------- This is the beginning of my 201 Contact Web Page Project ------------ */
+
+html, body {
+  height: 80%;
+  width: 80%;
+  padding: 0;
+  margin: 0;
+  background: #404040; 
+  background-image: url("images/surf.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+  
+	
+}
+
+.center {
+    width: 700px;
+	height: 1000px;
+	padding: 2%;
+    margin: 0px auto;
+ 	background: rgba(250, 249, 246, 0.75); /*this uses opacity of 75% for the background color*/
+	text-align: center;
+	/*border: 4px dashed white;*/
+}
+
+   
+#logo {
+    margin-bottom: 0px;
+	/*border: 3px solid rgb(248, 246, 246);*/ /*took out border arounf logo*/
+	text-align: center;
+	padding-top: 30%; /* added padding to center logo*/
+}
+
+h1 {
+	font-family: natom-pro-title,sans-serif;
+    font-weight: 400;
+    font-style: normal;
+	font-size: 2em;
+    margin: 0px auto 10px auto;
+    color: rgb(25, 19, 0);
+	padding-top: 5%;
+}
+
+h2 {
+	font-family: natom-pro-title, sans-serif;
+    font-weight: 200;
+    font-style: normal;
+	font-size: 1.5em;
+    line-height: 1.4;
+    color: rgb(21, 15, 1);
+    padding: 0px 0px;
+    margin: 0px auto 25px auto;
+}
+
+p {
+	font-family: chantal, sans-serif;
+	font-weight: 300;
+	font-style: normal;
+	font-size: 1.2em;
+    line-height: 1.6;
+    color: rgb(17, 10, 0);
+}
+nav {
+	font-family: chantal, sans-serif;
+	font-weight: 300;
+	font-style: normal;
+    font-size: 1.2 em;
+    width: 400px;
+    margin: 0 auto;
+    border: solid rgb(20, 32, 31);
+    border-width: 1px 0;
+    text-align: center;
+    margin-top: 2em;
+}    
+    
+nav li {
+	display: inline;
+}
+
+nav a{
+	display: inline-block;
+	padding: 10px
+}
+
+a{
+	color: #444;
+	text-decoration: none;
+	font-weight: bold;
+}
+
+a:hover{
+	color: black;
+	background: rgb(247, 203, 138);
+}
